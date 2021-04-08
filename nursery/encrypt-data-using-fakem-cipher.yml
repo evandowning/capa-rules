@@ -4,6 +4,7 @@ rule:
     name: encrypt data using FAKEM cipher
     namespace: data/encryption
     author: michael.hunhoff@fireeye.com
+    description: Detect custom encryption cipher used by FAKEM malware family
     scope: basic block
     references: https://attack.mitre.org/software/S0076/
   features:
